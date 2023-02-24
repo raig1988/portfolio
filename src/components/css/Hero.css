@@ -1,0 +1,13 @@
+.hero {
+    text-align: center;
+}
+
+#heroAvatar {
+    width: 250px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.25rem white);
+}
+
+.heroText {
+    margin: 20px;
+}

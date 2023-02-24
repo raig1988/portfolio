@@ -1,0 +1,38 @@
+.contactMeHero {
+    text-align: center;
+    margin: 20px;
+}
+
+.contactMeForm {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactMeForm input, .contactMeForm textarea {
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.contactMeForm textarea {
+    height: 100px;
+}
+
+.contactMeForm button {
+    width: 150px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color:white;
+    background-color: black;
+    font-family: 'Inconsolata', monospace, 'Roboto', sans-serif;
+}
+
+.contactMeForm button:disabled {
+    background-color: gray;
+}
+
+.formErrors {
+    color: red;
+    margin-top: -8px;
+}

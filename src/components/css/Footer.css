@@ -1,0 +1,19 @@
+.Footer {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .githubLogo {
+    width: 66px;
+}
+
+.Footer img {
+    width: 88px;
+    padding: 0px 26px;
+}
+
+.Footer a:hover {
+    filter: drop-shadow(0 0 0.25rem white);
+}

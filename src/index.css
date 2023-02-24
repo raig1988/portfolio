@@ -1,0 +1,58 @@
+body {
+  margin: 40px;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #C2C2C2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* General typography */
+
+h1 {
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace, 'Roboto', sans-serif;
+  margin: 0;
+  /* text-shadow: 0px 1px 9px; */
+}
+
+h2 {
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace, 'Roboto', sans-serif;
+  margin: 0;
+  /* text-shadow: 0px 1px 9px; */
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Inconsolata', monospace, 'Roboto', sans-serif;
+  /* text-shadow: 0px 1px 9px; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+figcaption {
+  font-family: 'Inconsolata', monospace, 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
